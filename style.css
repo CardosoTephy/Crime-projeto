@@ -4,7 +4,7 @@
     --cor-secundaria: #ffffff ;
     --cor-destaque: #000000 ;
     --cor-titulo: #ff0015 ;
-    
+
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 
 .caixa-principal{
     background-color: var(--cor-principal);
-    width: 90%;
+    Width: 90%;
     max-width: 600px;
     text-align: center;
     padding: 20px;

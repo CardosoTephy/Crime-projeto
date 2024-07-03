@@ -42,7 +42,7 @@ const perguntas = [
             {
                 texto: "Roubo"
                 afirmacao: "afirmacao"
-            }
+            }enunciado
         ]
     },
 ];

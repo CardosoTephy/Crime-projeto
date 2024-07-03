@@ -8,22 +8,42 @@ const perguntas = [
     {
         enunciado: "Quais os métodos utilizados na sua cidade para combater o crime?",
         alternativas: [
-            "Câmera de segurança",
-            "Sensor e de segurança"
+            {
+                texto: "Câmera de segurança",
+                afirmacao: "afirmacao"
+            },
+            {
+                texto: "Sensor e de segurança"
+                afirmacao: "afirmacao"
+            }
         ]
     },
     {
         enunciado: "Quais são os fatores sociais que contribuem para o ocorrência de crimes, como roubo, violência e corrupção?  ",
         alternativas: [
-            "Fome",
-            "Desemprego"
+            {
+                texto: "Fome",
+                afirmacao: "afirmacao"
+            },
+            {
+                texto: "Desemprego"
+                afirmacao: "afirmacao"
+            }
         ]
+        
     },
     {
-        enunciado: "Quais ão os crimes mai ocorrentes na sua cidade?",
-        alternativas: [
-            "Tráfico de drogas",
-            "Roubo"
+        enunciado: "Quais ão os crimes mais ocorrentes na sua cidade?",
+        alternativas: [ [
+            {
+                texto: "Tráfico de drogas",
+                afirmacao: "afirmacao"
+            },
+            {
+                texto: "Roubo"
+                afirmacao: "afirmacao"
+            }
+        ]
         ]
     },
 ];

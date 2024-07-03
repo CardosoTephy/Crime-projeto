@@ -34,7 +34,7 @@ const perguntas = [
     },
     {
         enunciado: "Quais ão os crimes mais ocorrentes na sua cidade?",
-        alternativas: [ [
+        alternativas: [
             {
                 texto: "Tráfico de drogas",
                 afirmacao: "afirmacao"
@@ -43,7 +43,6 @@ const perguntas = [
                 texto: "Roubo"
                 afirmacao: "afirmacao"
             }
-        ]
         ]
     },
 ];
